@@ -1,0 +1,20 @@
+{
+  "name": "pdf-organizer-mcp",
+  "version": "1.0.0",
+  "description": "PDF를 날짜 폴더로 자동 정리하는 MCP 서버",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx @airmcp-dev/cli dev --console",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@airmcp-dev/core": "latest"
+  },
+  "devDependencies": {
+    "@airmcp-dev/cli": "latest",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
